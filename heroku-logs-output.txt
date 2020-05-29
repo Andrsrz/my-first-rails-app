@@ -1,0 +1,100 @@
+2020-05-28T21:28:02.041759+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+2020-05-28T21:28:02.041759+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+2020-05-28T21:28:02.041760+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+2020-05-28T21:28:02.041760+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+2020-05-28T21:28:02.041760+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+2020-05-28T21:28:02.041761+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+2020-05-28T21:28:02.041761+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+2020-05-28T21:28:02.041762+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+2020-05-28T21:28:02.041762+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+2020-05-28T21:28:02.041763+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+2020-05-28T21:28:02.041763+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+2020-05-28T21:28:02.041763+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+2020-05-28T21:28:02.041764+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+2020-05-28T21:28:02.041764+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+2020-05-28T21:28:02.041765+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+2020-05-28T21:28:02.041765+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+2020-05-28T21:28:02.041766+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+2020-05-28T21:28:02.041772+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+2020-05-28T21:28:02.041773+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+2020-05-28T21:28:02.041773+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+2020-05-28T21:28:02.041774+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+2020-05-28T21:28:02.041774+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+2020-05-28T21:28:02.041775+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+2020-05-28T21:28:02.041775+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+2020-05-28T21:28:02.041776+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+2020-05-28T21:28:02.041776+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+2020-05-28T21:28:02.041783+00:00 app[web.1]: [ebbf23bf-1b16-4ffc-a45a-5bfec472551d] puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+2020-05-28T21:28:02.052988+00:00 heroku[router]: at=info method=GET path="/" host=pacific-plateau-70146.herokuapp.com request_id=ebbf23bf-1b16-4ffc-a45a-5bfec472551d fwd="177.249.43.120" dyno=web.1 connect=1ms service=23ms status=404 bytes=1902 protocol=https
+2020-05-28T21:28:02.275387+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=pacific-plateau-70146.herokuapp.com request_id=a4494783-644c-47cf-847d-85074fcf6252 fwd="177.249.43.120" dyno=web.1 connect=1ms service=6ms status=200 bytes=143 protocol=https
+2020-05-28T22:00:47.567415+00:00 heroku[web.1]: Idling
+2020-05-28T22:00:47.569276+00:00 heroku[web.1]: State changed from up to down
+2020-05-28T22:00:49.988500+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-05-28T22:00:50.030533+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2020-05-28T22:00:50.060960+00:00 app[web.1]: === puma shutdown: 2020-05-28 22:00:50 +0000 ===
+2020-05-28T22:00:50.061013+00:00 app[web.1]: - Goodbye!
+2020-05-28T22:00:50.061279+00:00 app[web.1]: Exiting
+2020-05-28T22:00:50.191843+00:00 heroku[web.1]: Process exited with status 143
+2020-05-29T01:31:38.321684+00:00 heroku[web.1]: Unidling
+2020-05-29T01:31:38.335264+00:00 heroku[web.1]: State changed from down to starting
+2020-05-29T01:31:44.906127+00:00 heroku[web.1]: Starting process with command `bin/rails server -p ${PORT:-5000} -e production`
+2020-05-29T01:31:50.110535+00:00 app[web.1]: => Booting Puma
+2020-05-29T01:31:50.110552+00:00 app[web.1]: => Rails 6.0.3.1 application starting in production
+2020-05-29T01:31:50.110553+00:00 app[web.1]: => Run `rails server --help` for more startup options
+2020-05-29T01:31:51.231050+00:00 app[web.1]: Puma starting in single mode...
+2020-05-29T01:31:51.231111+00:00 app[web.1]: * Version 4.3.5 (ruby 2.7.1-p83), codename: Mysterious Traveller
+2020-05-29T01:31:51.231112+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2020-05-29T01:31:51.231112+00:00 app[web.1]: * Environment: production
+2020-05-29T01:31:51.231353+00:00 app[web.1]: * Listening on tcp://0.0.0.0:9480
+2020-05-29T01:31:51.231732+00:00 app[web.1]: Use Ctrl-C to stop
+2020-05-29T01:31:51.426223+00:00 heroku[web.1]: State changed from starting to up
+2020-05-29T01:31:52.389081+00:00 app[web.1]: I, [2020-05-29T01:31:52.388974 #4]  INFO -- : [c9f00ebc-204d-494f-a822-f224e8e4395b] Started GET "/" for 177.249.43.120 at 2020-05-29 01:31:52 +0000
+2020-05-29T01:31:52.398546+00:00 app[web.1]: F, [2020-05-29T01:31:52.398445 #4] FATAL -- : [c9f00ebc-204d-494f-a822-f224e8e4395b]
+2020-05-29T01:31:52.398548+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] ActionController::RoutingError (uninitialized constant CarsController
+2020-05-29T01:31:52.398549+00:00 app[web.1]: Did you mean?  AbstractController):
+2020-05-29T01:31:52.398550+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b]
+2020-05-29T01:31:52.398550+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+2020-05-29T01:31:52.398551+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+2020-05-29T01:31:52.398551+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+2020-05-29T01:31:52.398552+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+2020-05-29T01:31:52.398552+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+2020-05-29T01:31:52.398572+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+2020-05-29T01:31:52.398572+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+2020-05-29T01:31:52.398573+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+2020-05-29T01:31:52.398573+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+2020-05-29T01:31:52.398573+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+2020-05-29T01:31:52.398574+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] rack (2.2.2) lib/rack/etag.rb:27:in `call'
+2020-05-29T01:31:52.398574+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+2020-05-29T01:31:52.398575+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] rack (2.2.2) lib/rack/head.rb:12:in `call'
+2020-05-29T01:31:52.398575+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+2020-05-29T01:31:52.398575+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+2020-05-29T01:31:52.398576+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+2020-05-29T01:31:52.398576+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+2020-05-29T01:31:52.398576+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+2020-05-29T01:31:52.398576+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+2020-05-29T01:31:52.398577+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+2020-05-29T01:31:52.398577+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+2020-05-29T01:31:52.398578+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+2020-05-29T01:31:52.398578+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+2020-05-29T01:31:52.398578+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+2020-05-29T01:31:52.398579+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+2020-05-29T01:31:52.398579+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+2020-05-29T01:31:52.398579+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+2020-05-29T01:31:52.398580+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+2020-05-29T01:31:52.398580+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+2020-05-29T01:31:52.398580+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+2020-05-29T01:31:52.398581+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+2020-05-29T01:31:52.398581+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+2020-05-29T01:31:52.398581+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+2020-05-29T01:31:52.398582+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+2020-05-29T01:31:52.398589+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+2020-05-29T01:31:52.398590+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+2020-05-29T01:31:52.398590+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+2020-05-29T01:31:52.398590+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+2020-05-29T01:31:52.398591+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+2020-05-29T01:31:52.398591+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+2020-05-29T01:31:52.398592+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+2020-05-29T01:31:52.398592+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+2020-05-29T01:31:52.398592+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+2020-05-29T01:31:52.398593+00:00 app[web.1]: [c9f00ebc-204d-494f-a822-f224e8e4395b] puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+2020-05-29T01:31:52.402529+00:00 heroku[router]: at=info method=GET path="/" host=pacific-plateau-70146.herokuapp.com request_id=c9f00ebc-204d-494f-a822-f224e8e4395b fwd="177.249.43.120" dyno=web.1 connect=1ms service=20ms status=404 bytes=1902 protocol=https
